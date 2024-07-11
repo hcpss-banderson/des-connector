@@ -3,8 +3,14 @@
   "description": "An abstraction library for Elasticsearch Connector module for Drupal.",
   "type": "library",
   "homepage": "https://github.com/nodespark/des-connector",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hcpss-banderson/elasticsearch-php"
+    }
+  ],
   "require": {
-    "elasticsearch/elasticsearch": "~5.0"
+    "elasticsearch/elasticsearch": "dev-5.x-php-8-support"
   },
   "license": "LGPL-2.1",
   "authors": [
